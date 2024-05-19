@@ -1,0 +1,122 @@
+.flex-container1 {
+    display: flex;
+    background-color: silver;
+}
+
+.box11{
+    background-color: cornsilk;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cornsilk {
+    background-color: cornsilk;
+}
+
+.box12{
+    width: 800px; 
+    height: 200px;
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: pink;
+}
+
+.box21{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid brown;
+    margin: 10px 10px 10px 10px;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.box22{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid silver;
+    margin: 10px 10px 10px 10px;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.box23{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid cornsilk;
+    margin: 10px 10px 10px 10px;
+}
+
+.cornsilk{
+    background-color: cornsilk;
+}
+
+.box24{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+}
+
+.black{
+    background-color: black;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: black;
+}
+
+.box31{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid brown;
+    margin: 10px 10px 10px 10px;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.box32{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px 10px 10px 10px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.box33{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+}
+
+.green{
+    background-color: green;
+}

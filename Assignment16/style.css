@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background-color: pink;
+}
+
+.title h1{
+    padding-bottom: 20px;
+}
+
+.main{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+}
+
+.mainBox{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid red;
+    background-color: grey;
+    display: flex;
+
+}
+
+.leftBox{
+    width: 70%;
+}
+
+.form-inline{
+    width: 100%;
+    padding: 15px;
+}
+
+.labelData label{
+    display: inline-block;
+    width: 125px ;
+}
+
+.first{
+    margin: 0px 0px 0px 30px;
+}
+
+.fname{
+    margin: 20px;
+}
+
+.mname{
+    margin: 20px;
+}
+
+.lname{
+    margin: 20px;
+}
+
+.email{
+    margin: 20px;
+}
+
+.number{
+    margin: 20px;
+}
+
+.education{
+    margin: 20px;
+}
+
+.gender{
+    margin: 20px;
+}
+
+.dob{
+    margin: 20px;
+}
+
+.technology{
+    margin: 0px 0px 0px 20px;
+}
+
+.inputData{
+    margin: 0px 0px 0px 10px;;
+}
+
+.rightBox{
+    width: 30%;
+    display: flex;
+    align-self: center;
+}
+
+img{
+    width: 50%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.bottom{
+    width: 100%;
+}
+
+.textData{
+    margin: 10px 10px 10px 0px;
+}

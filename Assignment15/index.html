@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment15</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="title">
+            <h1>Form</h1>
+        </div>
+        <div class="main">
+                <form class="form-inline">
+
+                    <div class="first">
+                        <div class="formFirst">
+
+                            <div class="name">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Full Name">
+                            </div>
+
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Email">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="second">
+                        <div class="formSecond">
+
+                            <div class="number">
+                                <label for="contact">Phone Number</label>
+                                <input type="number" id="contact" name="contact" placeholder="Contact">
+                            </div>
+
+                            <div class="dob">
+                                <label for="contact">Date of Birth</label>
+                                <input type="date" id="contact" name="dob">
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="formThird">
+                        <div class="gender">
+                            <label for="gender">Gender</label><br>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="male" value="male">
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="female" value="female">
+                            <label for="other">Other</label>
+                            <input type="radio" id="other" name="other" value="other">
+                        </div>
+                    </div>
+
+                    <div class="formForth">
+                        <div class="education">
+                            <label for="education">Education</label>
+                            <select name="education" id="education">
+                                <option value="bba">BBA</option>
+                                <option value="bca">BCA</option>
+                                <option value="bcs">BCS</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="formFive">
+                        <div class="checkbox">
+                            <label for="remark">Remark</label><br>
+                            <textarea name="remark" rows="6" cols="100" form="usrform" placeholder="Please type remark here"></textarea>
+                        </div>
+                    </div>
+
+                </form>
+        </div>
+
+        <div class="btn">
+            <button type="button">Submit</button>
+            <button type="button">Reset</button>
+        </div>
+    </div>
+</body>
+</html>

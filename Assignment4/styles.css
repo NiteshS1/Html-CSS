@@ -1,0 +1,175 @@
+.container {
+    display: block;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: red;
+}
+
+.box11{
+    width: 400px;
+    padding: 70px;
+    margin: 10px 20px 10px 10px;
+    border: 1px solid white;
+}
+
+.white {
+    background-color: white;
+}
+
+.box12{
+    width: 400px; 
+    padding: 70px;
+    border: 1px solid green;
+    margin: 10px 20px 10px 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.box13{
+    width: 400px; 
+    padding: 70px;
+    border: 1px solid blue;
+    margin: 10px 20px 10px 10px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.box14{
+    width: 400px; 
+    padding: 70px;
+    border: 1px solid brown;
+    margin: 10px 20px 10px 10px;
+}
+
+.brown{
+    background-color: brown;
+}
+
+
+
+.flex-container11 {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    background-color: purple;
+}
+
+.box111{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid brown;
+    margin: 10px 10px 10px 10px;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.box112{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid cornsilk;
+    margin: 10px 10px 10px 10px;
+}
+
+.cornsilk{
+    background-color: cornsilk;
+}
+
+.box113{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.box114{
+    width: 100px;
+    padding: 70px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.flex-container12 {
+    display: inline-block;
+    background-color: green;
+    padding: 50px;
+}
+
+.box121{
+    width: 712px;
+    height: 355px;
+    padding: 70px;
+    margin: 10px 10px 10px 10px; 
+    background-color: brown;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.flex-container13 {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    background-color: purple;
+}
+
+.box131{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid brown;
+    margin: 10px 10px 10px 10px;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.box132{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid cornsilk;
+    margin: 10px 10px 10px 10px;
+}
+
+.cornsilk{
+    background-color: cornsilk;
+}   
+
+.box133{
+    width: 100px; 
+    padding: 70px;
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.box134{
+    width: 100px;
+    padding: 70px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.white {
+    background-color: white;
+}

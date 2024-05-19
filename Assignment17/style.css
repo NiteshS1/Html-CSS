@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.leftBox{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:pink;
+    position: relative;
+}
+
+.topLeftBox{
+    width: 20%;
+    height: 20vh;
+    position: absolute;
+    top: 115px;
+    right: 190px;
+    background-color: green;
+}
+
+.innerLeftBox{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    background-color: white;
+}
+
+.fistLowerLeftBox{
+    width: 20%;
+    height: 20vh;
+    position: absolute;
+    top: 480px;
+    left: 120px;
+    background-color: brown;
+}
+
+.secondLowerLeftBox{
+    width: 20%;
+    height: 20vh;
+    position: absolute;
+    top: 545px;
+    right: 40px;
+    background-color: black;
+}
+
+.rightBox{
+    width: 50%;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topRightBox{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:blanchedalmond;
+}
+
+.box1{
+    width: 30%;
+    height: 20vh;
+    translate: 0px -50px;
+    background-color: white;
+}
+
+.box2{
+    width: 30%;
+    height: 20vh;
+    translate: 0px 50px; 
+    background-color: orange;
+}
+
+.box3{
+    width: 30%;
+    height: 20vh;
+    translate: 0px -50px;
+    background-color: brown;
+}
+
+.bottomRightBox{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+.box11{
+    width: 25%;
+    height: 25vh;
+    border-radius: 10px;
+    rotate: 40deg;
+    background-color: blue;
+}
+
+.box12{
+    width: 25%;
+    height: 25vh;
+    border-radius: 10px;
+    rotate: 40deg;
+    background-color: green;
+}

@@ -1,0 +1,116 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.box1{
+    display: inline-block;
+    width: 800px;
+}
+
+.box11{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    width: 800px;
+    background-color: green;
+    border: 1px solid green; 
+}
+
+.box111, .box112{
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+
+
+
+.box12{
+    display: inline-flex;
+}
+
+.box121{
+    display: inline-block;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.box1211{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    width: 492px;
+    margin: 10px;
+    
+}
+
+.box12111, .box12112{
+    width: 200px;
+    padding: 80px;
+    margin: 10px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+
+
+.box1212{
+    display: flex;
+    width: 415px;
+    padding: 30px;
+    margin: 10px 10px 10px 20px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+
+
+
+.box122{
+    display: inline-block;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.box1221, .box1222{
+    width: 185px;
+    padding: 40px;
+    height: 45px;
+    margin: 10px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+
+
+
+.box2{
+    display: inline-block;
+    background-color:brown;
+    border: 1px solid brown;
+}
+
+.box21{
+    width: 185px;
+    padding: 40px;
+    height: 120px;
+    margin: 10px 10px 10px 10px;
+    background-color:chocolate;
+    border: 1px solid chocolate;
+}
+
+.box22{
+    width: 185px;
+    padding: 40px;
+    height: 120px;
+    margin: 30px 10px 10px 10px;
+    background-color: chocolate;
+    border: 1px solid chocolate;
+}

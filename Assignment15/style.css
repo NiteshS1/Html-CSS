@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.main{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inline{
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:darkgray;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+.formFirst{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.email{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.second{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+
+.formSecond{
+    display: flex;
+}
+
+.number{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.dob{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.formThird{
+    width: 95%;
+    padding: 15px 0;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.gender{
+    margin: 10px;
+}
+
+.formForth{
+    width: 95%;
+    padding: 15px 0;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.education{
+    margin: 10px;
+}
+
+.formFive{
+    width: 95%;
+    padding: 15px 0;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.checkbox{
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
